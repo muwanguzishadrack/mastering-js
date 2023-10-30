@@ -17,28 +17,28 @@
 // console.log(interestRate);
 
 // -----------------------------------------------------------
-// PRIMITIVE VALUE TYPES
-// let name = 'Shadrack'; //String Literal
-// let age = 27; // Number Literal
-// let isApproved = false // Boolean Literal
-// let firstName = undefined;
-// let selectedColor = null;
+PRIMITIVE VALUE TYPES
+let name = 'Shadrack'; //String Literal
+let age = 27; // Number Literal
+let isApproved = false // Boolean Literal
+let firstName = undefined;
+let selectedColor = null;
 
 // -----------------------------------------------------------
-REFERENCE TYPE
-let person = {
-    name: 'Shadrack',
-    age: 27
-};
+// REFERENCE TYPE
+// let person = {
+//     name: 'Shadrack',
+//     age: 27
+// };
 
-Dot Notation
-person.name = 'John';
+// Dot Notation
+// person.name = 'John';
 
-Bracket Notation
-let selection = 'name';
-person['name'] = 'Marry';
+// Bracket Notation
+// let selection = 'name';
+// person['name'] = 'Marry';
 
-console.log(person.name);
+// console.log(person.name);
 
 // -----------------------------------------------------------
 // ARRAYs
