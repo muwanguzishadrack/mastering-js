@@ -45,8 +45,8 @@ year = 1991;
 console.log(typeof year);
 
 console.log(typeof null);
-*/
-// let, CONST AND VAR
+
+// LET, CONST AND VAR
 
 let age = 30;
 age = 31;
@@ -60,3 +60,64 @@ job = "teacher";
 
 // lastName = "Shadrack";
 // console.log(lastName);
+
+
+// BASIC OPERATORS
+const now = 2037;
+const ageShadrack = now - 1991;
+const ageSarah = now - 2018;
+console.log(ageShadrack, ageSarah);
+
+console.log(ageShadrack * 2, ageShadrack / 10, 2 ** 3);
+// 2 ** 3 mean 2 to the power of 3 = 2 * 2 * 2
+
+const firstName = "Shadrack";
+const lastName = "Muwanguzi";
+console.log(firstName + " " + lastName);
+
+// ASSIGNMENT OPERATORS
+let x = 10 + 5; //15
+x += 10; // x =  x + 10 = 25
+x *= 4; // = x * 4 = 100
+x++; // x =  x + 1 = 110
+x--;
+x--;
+console.log(x);
+
+// COMPARISON OPERATORS
+console.log(ageShadrack > ageSarah); // >, <, >=, <=
+console.log(ageSarah >= 18);
+
+const isFullAge = ageSarah >= 18;
+
+console.log(now - 1991 > now - 2018);
+
+// OPERATOR PROCEDENCE
+
+const now = 2037;
+const ageShadrack = now - 1991;
+const ageSarah = now - 2018;
+
+console.log(now - 1991 > now - 2018);
+
+// console.log(25 - 10 - 5);
+
+let x, y;
+x = y = 25 - 10 - 5; // x = y = 10, x = 10
+console.log(x, y);
+
+const average = (ageShadrack + ageSarah) / 2;
+console.log(ageShadrack, ageSarah, average);
+
+// CHALLENGE #1
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
+
+const BMIMark = massMark / (heightMark * heightMark);
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+const markHigherBMI = BMIMark > BMIJohn;
+
+console.log(BMIMark, BMIJohn, markHigherBMI);
+*/
