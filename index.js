@@ -1,20 +1,20 @@
-// Variables
-// let name = 'Shadrack';
-// console.log(name);
+Variables
+let name = 'Shadrack';
+console.log(name);
 
-// Can't be reserved keyword
-// Should be meaningful
-// Can't start with a number
-// Can't contain a space or (-)
-// Are case-sensetive
+Can't be reserved keyword
+Should be meaningful
+Can't start with a number
+Can't contain a space or (-)
+Are case-sensetive
 
-// let firstName = 'Shadrack'
-// let lastName = 'Mark';
+let firstName = 'Shadrack'
+let lastName = 'Mark';
 
 // -----------------------------------------------------------
-const interestRate = 0.3;
-interestRate = 1
-console.log(interestRate);
+// const interestRate = 0.3;
+// interestRate = 1
+// console.log(interestRate);
 
 // -----------------------------------------------------------
 // PRIMITIVE VALUE TYPES
