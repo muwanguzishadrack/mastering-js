@@ -1,4 +1,9 @@
-let js = "amazing";
-if (js === "amazing") alert("Javascript is FUN!");
+// VARIABLES
+// let js = "amazing";
+// console.log(4 + 8 + 12 - 10);
 
-console.log(4 + 8 + 12 - 10);
+// console.log("Shadrack");
+// console.log(23);
+
+let firstName = "Shadrack";
+console.log(firstName);
