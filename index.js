@@ -12,17 +12,17 @@
 // let lastName = 'Mark';
 
 // -----------------------------------------------------------
-// const interestRate = 0.3;
-// interestRate = 1
-// console.log(interestRate);
+const interestRate = 0.3;
+interestRate = 1
+console.log(interestRate);
 
 // -----------------------------------------------------------
-PRIMITIVE VALUE TYPES
-let name = 'Shadrack'; //String Literal
-let age = 27; // Number Literal
-let isApproved = false // Boolean Literal
-let firstName = undefined;
-let selectedColor = null;
+// PRIMITIVE VALUE TYPES
+// let name = 'Shadrack'; //String Literal
+// let age = 27; // Number Literal
+// let isApproved = false // Boolean Literal
+// let firstName = undefined;
+// let selectedColor = null;
 
 // -----------------------------------------------------------
 // REFERENCE TYPE
