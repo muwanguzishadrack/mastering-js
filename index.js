@@ -1,15 +1,15 @@
-Variables
-let name = 'Shadrack';
-console.log(name);
+// Variables
+// let name = 'Shadrack';
+// console.log(name);
 
-Can't be reserved keyword
-Should be meaningful
-Can't start with a number
-Can't contain a space or (-)
-Are case-sensetive
+// Can't be reserved keyword
+// Should be meaningful
+// Can't start with a number
+// Can't contain a space or (-)
+// Are case-sensetive
 
-let firstName = 'Shadrack'
-let lastName = 'Mark';
+// let firstName = 'Shadrack'
+// let lastName = 'Mark';
 
 // -----------------------------------------------------------
 // const interestRate = 0.3;
@@ -56,8 +56,8 @@ let lastName = 'Mark';
 
 // Calculates a value
 
-// function square(number) {
-//     return number * number;
-// }
+function square(number) {
+    return number * number;
+}
 
-// console.log(square(2));
+console.log(square(2));
