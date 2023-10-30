@@ -54,7 +54,7 @@
 //     console.log('Hello', name, lastName);
 // }
 
-// // Calculates a value
+// Calculates a value
 
 function square(number) {
     return number * number;
