@@ -41,23 +41,23 @@
 // console.log(person.name);
 
 // -----------------------------------------------------------
-// ARRAYs
+ARRAYs
 
-// let selectedColor = ['red', 'blue'];
-// selectedColor[2] = 1;
+let selectedColor = ['red', 'blue'];
+selectedColor[2] = 1;
 
-// console.log(selectedColor.length);
+console.log(selectedColor.length);
 
-FUNCTIONS
-Performing a task
-function greet(name, lastName) {
-    console.log('Hello', name, lastName);
-}
+// FUNCTIONS
+// Performing a task
+// function greet(name, lastName) {
+//     console.log('Hello', name, lastName);
+// }
 
-Calculates a value
+// Calculates a value
 
-function square(number) {
-    return number * number;
-}
+// function square(number) {
+//     return number * number;
+// }
 
-console.log(square(2));
+// console.log(square(2));
