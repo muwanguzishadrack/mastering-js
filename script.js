@@ -7,3 +7,11 @@
 
 let firstName = "Shadrack";
 console.log(firstName);
+
+let person = "Shadrack";
+let PI = 3.1415;
+
+let myFirstJob = "Programmer";
+let myCurrentJob = "Teacher";
+
+console.log(myFirstJob);
