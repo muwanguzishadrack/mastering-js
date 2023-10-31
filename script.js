@@ -108,7 +108,7 @@ console.log(x, y);
 
 const average = (ageShadrack + ageSarah) / 2;
 console.log(ageShadrack, ageSarah, average);
-*/
+
 // CHALLENGE #1
 const massMark = 78;
 const heightMark = 1.69;
@@ -120,3 +120,29 @@ const BMIJohn = massJohn / (heightJohn * heightJohn);
 const markHigherBMI = BMIMark > BMIJohn;
 
 console.log(BMIMark, BMIJohn, markHigherBMI);
+*/
+
+// STRINGS AND TEMPLATE LITERALS
+const firstName = "shadrack";
+const job = "teacher";
+const birthYear = 1995;
+const year = 2037;
+
+const shadrack =
+  "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job;
+console.log(shadrack);
+
+const shadrackNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+console.log(shadrackNew);
+
+console.log(`Just a reguler string...`);
+
+console.log(
+  "String with \n\
+multiple \n\
+lines"
+);
+
+console.log(`String
+multiple
+lines`);
