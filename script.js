@@ -168,7 +168,6 @@ if (birthYear <= 2000) {
 }
 
 console.log(century);
-*/
 
 // CHALLENGE #2
 const massMark = 78;
@@ -182,3 +181,4 @@ console.log(BMIMark, BMIJohn);
 
 console.log("Mark's BMI is higher then John's!");
 console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn})!`);
+*/
