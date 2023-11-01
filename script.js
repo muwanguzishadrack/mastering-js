@@ -220,7 +220,7 @@ console.log(friends.includes(23));
 if (friends.includes("Steven")) {
   console.log("You have a friend called Steven");
 }
-*/
+
 // Coding Exercise 6: CHALLENGE #2
 // CHALLENGE #2
 // Steven wants you to improve his tip calculator, using the same rules as before — tip 15% of the bill if the bill value is between 50 and 300, and if the value is different, the tip is 20%.
@@ -255,3 +255,67 @@ const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 
 console.log(tips);
 console.log(totals);
+
+
+// Introduction to Objects
+const shadracKArray = [
+  "Shadrack",
+  "Mark",
+  2037 - 1995,
+  "teacher",
+  ["Michael", "Peter", "Steve"],
+];
+
+console.log(shadracKArray);
+
+const shadrack = {
+  firstName: "Shadrack",
+  lastName: "Mark",
+  age: 2037 - 1995,
+  job: "teacher",
+  friends: ["Michael", "Peter", "Steve"],
+};
+*/
+// Dot vs. Bracket Notation
+
+const shadrack = {
+  firstName: "Shadrack",
+  lastName: "Mark",
+  age: 2037 - 1995,
+  job: "teacher",
+  friends: ["Michael", "Peter", "Steve"],
+};
+
+console.log(shadrack);
+
+console.log(shadrack.lastName);
+console.log(shadrack["lastName"]);
+
+console.log(shadrack["lastName"]);
+
+const nameKey = "Name";
+console.log(shadrack["first" + nameKey]);
+console.log(shadrack["last" + nameKey]);
+
+const interestedIn = prompt(
+  "What do you what to know about choose between firstName, lastName, age, job and friends"
+);
+
+if (shadrack[interestedIn]) {
+  console.log(shadrack[interestedIn]);
+} else {
+  console.log(
+    "Wrong request! choose between firstName, lastName, age, job and friends"
+  );
+}
+
+shadrack.location = "Uganda";
+shadrack["twitter"] = "@sirshadrack";
+console.log(shadrack);
+
+// Challenge
+// "Shadrack has 3 friends, and his best friend is called Michael"
+
+console.log(
+  `${shadrack.firstName} has ${shadrack.friends.length} friends and his best friend is called ${shadrack.friends[0]}`
+);
