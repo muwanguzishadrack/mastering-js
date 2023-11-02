@@ -407,7 +407,6 @@ if (mark.bmi > john.bmi) {
     `${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s (${mark.bmi})!`
   );
 }
-*/
 // Iteration: The for Loop
 
 // console.log("Lifting weights reptition 1");
@@ -424,4 +423,53 @@ if (mark.bmi > john.bmi) {
 // for loop keeps running while condition is TRUE
 for (let rep = 1; rep <= 10; rep++) {
   console.log(`Lifting weights reptition ${rep}`);
+}
+*/
+// Looping Arrays
+const shadrack = [
+  "Shadrack",
+  "Mark",
+  2037 - 1995,
+  "teacher",
+  ["Michael", "Peter", "Steve"],
+  true,
+];
+
+const types = [];
+
+// console.log(shadracKArray.length);
+
+for (let i = 0; i < shadrack.length; i++) {
+  // Reading from shadrack array
+  console.log(shadrack[i], typeof shadrack[i]);
+
+  // Filling types array
+  // types[i] = typeof shadrack[i];
+  types.push(typeof shadrack[i]);
+}
+
+console.log(types);
+
+const years = [1991, 2007, 1969, 2020];
+const ages = [];
+
+for (let i = 0; i < years.length; i++) {
+  ages.push(2037 - years[i]);
+}
+
+console.log(ages);
+
+//Breaking and Continuing
+console.log("--- ONLY STRING ---");
+for (let i = 0; i < shadrack.length; i++) {
+  if (typeof shadrack[i] !== "string") continue;
+
+  console.log(shadrack[i], typeof shadrack[i]);
+}
+
+console.log("--- BREAK WITH NUMBER ---");
+for (let i = 0; i < shadrack.length; i++) {
+  if (typeof shadrack[i] === "number") break;
+
+  console.log(shadrack[i], typeof shadrack[i]);
 }
