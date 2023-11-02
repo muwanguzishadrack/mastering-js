@@ -424,7 +424,7 @@ if (mark.bmi > john.bmi) {
 for (let rep = 1; rep <= 10; rep++) {
   console.log(`Lifting weights reptition ${rep}`);
 }
-*/
+
 // Looping Arrays
 const shadrack = [
   "Shadrack",
@@ -472,4 +472,29 @@ for (let i = 0; i < shadrack.length; i++) {
   if (typeof shadrack[i] === "number") break;
 
   console.log(shadrack[i], typeof shadrack[i]);
+}
+*/
+// Looping Backwards and Loops in Loops
+const shadrack = [
+  "Shadrack",
+  "Mark",
+  2037 - 1995,
+  "teacher",
+  ["Michael", "Peter", "Steve"],
+];
+
+// Looping Backwards
+
+for (let i = shadrack.length - 1; i >= 0; i--) {
+  console.log(i, shadrack[i]);
+}
+
+// Loops in Loops
+
+for (let exercise = 1; exercise < 4; exercise++) {
+  console.log(`-------- Starting exercise ${exercise}`);
+
+  for (let rep = 1; rep < 6; rep++) {
+    console.log(`Exercise ${exercise}: Lifting weight repetition ${rep}`);
+  }
 }
