@@ -359,7 +359,6 @@ console.log(shadrack.age);
 //Shadrack is a 46-year old teacher, and he has a drivers license
 
 console.log(shadrack.getSummary());
-*/
 //
 // CHALLENGE #3
 // Let's go back to Mark and John comparing their BMIs!
@@ -407,4 +406,22 @@ if (mark.bmi > john.bmi) {
   console.log(
     `${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s (${mark.bmi})!`
   );
+}
+*/
+// Iteration: The for Loop
+
+// console.log("Lifting weights reptition 1");
+// console.log("Lifting weights reptition 2");
+// console.log("Lifting weights reptition 3");
+// console.log("Lifting weights reptition 4");
+// console.log("Lifting weights reptition 5");
+// console.log("Lifting weights reptition 6");
+// console.log("Lifting weights reptition 7");
+// console.log("Lifting weights reptition 8");
+// console.log("Lifting weights reptition 9");
+// console.log("Lifting weights reptition 10");
+
+// for loop keeps running while condition is TRUE
+for (let rep = 1; rep <= 10; rep++) {
+  console.log(`Lifting weights reptition ${rep}`);
 }
