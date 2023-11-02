@@ -275,7 +275,7 @@ const shadrack = {
   job: "teacher",
   friends: ["Michael", "Peter", "Steve"],
 };
-*/
+
 // Dot vs. Bracket Notation
 
 const shadrack = {
@@ -319,3 +319,25 @@ console.log(shadrack);
 console.log(
   `${shadrack.firstName} has ${shadrack.friends.length} friends and his best friend is called ${shadrack.friends[0]}`
 );
+*/
+
+// Object Methonds
+const shadrack = {
+  firstName: "Shadrack",
+  lastName: "Mark",
+  birthYear: 1995,
+  job: "teacher",
+  friends: ["Michael", "Peter", "Steve"],
+  hasDriversLicense: true,
+
+  // calcAge: function (birthYear) {
+  //   return 2037 - birthYear;
+  // },
+  calcAge: function () {
+    // console.log(this);
+    return 2037 - this.birthYear;
+  },
+};
+
+console.log(shadrack.calcAge());
+// console.log(shadrack["calcAge"](1995));
