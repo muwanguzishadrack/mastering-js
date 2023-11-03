@@ -110,10 +110,10 @@ const calcTempAmplitudeBug = function (t1, t2) {
 const amplitudeBug = calcTempAmplitudeBug([3, 5, 1], [9, 4, 5]);
 // A) IDENTIFY
 console.log(amplitudeBug);
-*/
+
 // Coding Challenge #1
 
-/*
+
 Given an array of forecasted maximum temperatures, the thermometer displays a string with these temperatures
 
 Example: [17,12,23] will print "... 17°C in 1 days ... 21°C in 2 days ... 23°C in 3 days ..."
@@ -124,7 +124,7 @@ Use the problem-solving framework: Understand the problem and break it up into s
 
 TEST DATA 1: [17, 21, 23]
 TEST DATA 2: [12, 5, -5, 0, 4]
-*/
+
 
 const data1 = [17, 21, 23];
 const data2 = [12, 5, -5, 0, 4];
@@ -143,3 +143,4 @@ const printForecast = function (arr) {
 };
 
 printForecast(data1);
+/*
