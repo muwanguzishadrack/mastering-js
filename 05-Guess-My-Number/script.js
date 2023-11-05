@@ -1,5 +1,6 @@
 'use strict';
 
+// Query Selector
 console.log(document.querySelector('.message').textContent);
 
-// Getting elements from html to js
+// Dom and Dom Manipulation
