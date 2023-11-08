@@ -1,5 +1,6 @@
 'use strict';
 
+// Pig Game Assignment
 // Selecting elements
 const score0El = document.querySelector('#score--0');
 const score1El = document.getElementById('score--1');
@@ -37,4 +38,4 @@ btnRoll.addEventListener('click', function () {
   }
 });
 
-//Comment On code//
+//
