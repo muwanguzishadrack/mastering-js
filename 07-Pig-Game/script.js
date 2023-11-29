@@ -96,4 +96,4 @@ btnHold.addEventListener('click', function () {
 });
 
 btnNew.addEventListener('click', init);
-// New Update 82
+// New Update 83
